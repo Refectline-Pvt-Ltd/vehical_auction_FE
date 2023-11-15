@@ -1,0 +1,19 @@
+.home {
+  .main-section-01 {
+    .right-fade {
+      min-height: 1026px;
+      background: #c1c8da;
+      position: absolute;
+      right: 0;
+    }
+  }
+  .main-section-02 {
+    background-color: #ffffff;
+  }
+
+  @media (max-width: 600px) {
+    .right-fade {
+      display: none;
+    }
+  }
+}

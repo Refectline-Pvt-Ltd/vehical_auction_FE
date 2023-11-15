@@ -1,0 +1,30 @@
+.carousel-type-01 {
+  .para-text-01 {
+    font-size: 1.2rem;
+  }
+  .para-text-02 {
+    margin-top: 11px;
+
+    font-size: 56px;
+    letter-spacing: -0.02em;
+  }
+  .para-text-03 {
+    font-size: 0.88rem;
+    line-height: 27px;
+  }
+  .brands-list {
+    margin-top: 54px;
+  }
+
+  @media (max-width: 600px) {
+    .para-text-02 {
+      line-height: 32.74px;
+      margin-top: 3px;
+      font-size: 1.6rem;
+    }
+    .para-text-03 {
+      line-height: 19.1px;
+      margin-top: 13px;
+    }
+  }
+}
